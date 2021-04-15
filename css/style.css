@@ -1,24 +1,19 @@
 @charset "UTF-8";
 
 .header {
-  top: 0;
-  left: 0;
-  position: fixed;
-  width: 1100px;
-  height: 70px;
   background-color: white;
 }
 
-.header-innner {
-  position: relative;
-  
+.header__inner__box {
+  margin: 0 auto;
+}
+
+.header-inner {
+  display: block;
 }
 
 .fa-bolt {
   color: #4e4e4e;
-  position: absolute;
-  left: 200px;
-  margin: 15px 0;
   font-size: 30px;
 }
 
@@ -27,9 +22,6 @@
   padding: 14px 12px;
   color: white;
   background-color: #74cfae;
-  position: absolute;
-  right: 200px;
-  top: 15px;
   transition: all 300ms 0s ease;
 }
 
@@ -39,12 +31,10 @@
 
 .main {
   padding-top: 70px;
-  width: 1100px;
 }
 
 .theme {
   background-color: #f2f2f2;
-  width: 1100px;
   height: 100%;
   text-align: center;
 }
@@ -68,18 +58,26 @@
 
 .what {
   background-color: #74cfae;
-  display: flex;
+  text-align: center;
+}
+
+.what__inner {
+  display: inline-block;
 }
 
 
 .what__item__picture {
-  margin: 50px 100px 0;
+  display: inline-block;
+  margin-top: 50px;
 }
 
 .what__item__right {
   width: 600px;
-  text-align: center;
-  margin: auto 0;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 100px;
+  vertical-align: top;
+
 }
 
 .what__item__top {
@@ -98,6 +96,9 @@
 }
 
 .work__items {
+}
+
+.work__item__top__box {
   text-align: center;
 }
 
@@ -108,17 +109,22 @@
   display: inline-block;
 }
 
+.work__item__inline {
+  
+}
+
 .work__item__middle {
   margin-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  width: 1200px;
+  justify-content: center;
 }
 
 .picture1 {
   margin-right: 100px;
-  margin-left: 75px;
   margin-bottom: 80px;
+  margin-left: 250px;
   opacity: 0.7;
 }
 
@@ -148,8 +154,8 @@
 
 .picture4 {
   margin-right: 100px;
-  margin-left: 75px;
   opacity: 0.7;
+  margin-left: 250px;
 }
 
 .picture4:hover {
@@ -178,14 +184,14 @@
 
 .work__item__bottom {
   color: #333;
-  display: flex;
+  text-align: center;
   padding-bottom: 70px;
 }
 
 .work__item__bottom__text {
+  display: inline-block;
   width: 550px;
   margin-right: 90px;
-  margin-left: 150px;
 }
 
 .work__item__bottom__button {
@@ -193,6 +199,8 @@
   padding: 14px 20px;
   color: white;
   background-color: #74cfae;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .work__item__bottom__button:hover {
@@ -206,7 +214,7 @@
   padding-bottom: 100px;
 }
 
-.skills__items {
+.skills__items__top {
   text-align: center;
 }
 
@@ -214,23 +222,34 @@
   color: white;
   display: inline-block;
   margin-bottom: 100px;
+  vertical-align: top;
+}
+
+.skills__items__bottom {
+  text-align: center;
 }
 
 .skills__item__bottom {
-  display: flex;
+  display: inline-block;
 }
 
 .skills__item__bottom__picture1 {
+  display: inline-block;
   margin-right: 180px;
-  margin-left: 90px;
 }
 
 .skills__item__bottom__picture2 {
+  display: inline-block;
   margin-right: 180px;
 }
 
 .skills__item__bottom__picture3 {
+  display: inline-block;
   margin-right: 180px;
+}
+
+.skills__item__bottom__picture4 {
+  display: inline-block;
 }
 
 .skills__item__bottom__text {
