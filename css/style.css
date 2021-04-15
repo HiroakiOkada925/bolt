@@ -3,7 +3,10 @@
 .header {
   background-color: white;
   position: fixed;
+  top: 0;
+  left: 0,;
   width: 100%;
+  z-index: 1;
 }
 
 .inner {
@@ -43,6 +46,7 @@
 
 .theme {
   background-color: #f2f2f2;
+
 }
 
 .theme-inner {
@@ -50,7 +54,7 @@
 }
 
 .theme__items {
-  margin: 250px auto;
+  margin: 320px auto 250px;
   display: inline-block;
 }
 
@@ -67,15 +71,17 @@
 }
 
 .what {
-  background-color: #74cfae; 
+  background-color: #74cfae;
 }
 
 .what-inner {
   text-align: center;
+  font-size: 0;
 }
 
 .what__box {
   display: inline-block;
+
 }
 
 
@@ -131,58 +137,60 @@
   margin-right: 100px;
   margin-bottom: 80px;
   opacity: 0.7;
+  transition: all 0.3s ease;
 }
 
 .picture1:hover {
-  transition: all 300ms ease;
+  
   opacity: 1;
 }
 
 .picture2 {
   margin-right: 100px;
   opacity: 0.7;
+  transition: all 0.3s ease;
 }
 
 .picture2:hover {
-  transition: all 300ms ease;
   opacity: 1;
 }
 
 .picture3 {
   opacity: 0.7;
+  transition: all 0.3s ease;
 }
 
 .picture3:hover {
-  transition: all 300ms ease;
   opacity: 1;
 }
 
 .picture4 {
   margin-right: 100px;
   opacity: 0.7;
+  transition: all 0.3s ease;
 }
 
 .picture4:hover {
-  transition: all 300ms ease;
+  
   opacity: 1;
 }
 
 .picture5 {
   margin-right: 100px;
   opacity: 0.7;
+  transition: all 0.3s ease;
 }
 
 .picture5:hover {
-  transition: all 300ms ease;
   opacity: 1;
 }
 
 .picture6 {
   opacity: 0.7;
+  transition: all 0.3s ease;
 }
 
 .picture6:hover {
-  transition: all 300ms ease;
   opacity: 1;
 }
 
@@ -205,11 +213,11 @@
   background-color: #74cfae;
   display: inline-block;
   vertical-align: top;
+  transition: all 0.3s ease;
 }
 
 .work__item__bottom__button:hover {
   color: #333;
-  transition: all 300ms ease;
 }
 
 .skills {
@@ -279,11 +287,11 @@
   margin-top: 250px;
   margin-bottom: 250px;
   position: relative;
+  transition: all 300ms 0s ease;
 }
 
 .sns__icon-box:hover {
   background-color: white;
-  transition: all 300ms 0s ease;
 }
 
 .fa-facebook-f {
@@ -299,7 +307,7 @@
   height: 3.2rem;
 }
 
-.fa-basketball-ball {
+.fa-dribbble {
   color: #74cfae;
   font-size: 50px;
   position: absolute;
