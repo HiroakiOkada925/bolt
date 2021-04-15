@@ -7,7 +7,8 @@
 }
 
 .inner {
-  
+  width: 1100px;
+  margin: 0 auto;
 }
 
 .header-inner {
@@ -129,7 +130,6 @@
 .picture1 {
   margin-right: 100px;
   margin-bottom: 80px;
-  margin-left: 250px;
   opacity: 0.7;
 }
 
@@ -160,7 +160,6 @@
 .picture4 {
   margin-right: 100px;
   opacity: 0.7;
-  margin-left: 250px;
 }
 
 .picture4:hover {
@@ -352,5 +351,4 @@
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 25px;
-  padding-right: 200px;
 }
