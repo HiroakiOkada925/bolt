@@ -30,6 +30,11 @@
   position: absolute;
   right: 200px;
   top: 15px;
+  transition: all 300ms 0s ease;
+}
+
+.header__contact:hover {
+  color: #333;
 }
 
 .main {
@@ -114,20 +119,61 @@
   margin-right: 100px;
   margin-left: 75px;
   margin-bottom: 80px;
+  opacity: 0.7;
+}
 
+.picture1:hover {
+  transition: all 300ms ease;
+  opacity: 1;
 }
 
 .picture2 {
   margin-right: 100px;
+  opacity: 0.7;
+}
+
+.picture2:hover {
+  transition: all 300ms ease;
+  opacity: 1;
+}
+
+.picture3 {
+  opacity: 0.7;
+}
+
+.picture3:hover {
+  transition: all 300ms ease;
+  opacity: 1;
 }
 
 .picture4 {
   margin-right: 100px;
   margin-left: 75px;
+  opacity: 0.7;
+}
+
+.picture4:hover {
+  transition: all 300ms ease;
+  opacity: 1;
 }
 
 .picture5 {
   margin-right: 100px;
+  opacity: 0.7;
+}
+
+.picture5:hover {
+  transition: all 300ms ease;
+  opacity: 1;
+}
+
+.picture6 {
+  opacity: 0.7;
+}
+
+.picture6:hover {
+  transition: all 300ms ease;
+  opacity: 1;
 }
 
 .work__item__bottom {
@@ -142,11 +188,16 @@
   margin-left: 150px;
 }
 
-.work__item__button {
+.work__item__bottom__button {
   font-size: 12px;
   padding: 14px 20px;
   color: white;
   background-color: #74cfae;
+}
+
+.work__item__bottom__button:hover {
+  color: #333;
+  transition: all 300ms ease;
 }
 
 .skills {
@@ -196,11 +247,16 @@
 .sns__icon-box {
   width: 185px;
   height: 90px;
-  background-color: white;
+  background-color: #f2f2f2;
   display: inline-block;
   margin-top: 250px;
   margin-bottom: 250px;
   position: relative;
+}
+
+.sns__icon-box:hover {
+  background-color: white;
+  transition: all 300ms 0s ease;
 }
 
 .fa-facebook-f {
