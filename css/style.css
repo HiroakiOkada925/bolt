@@ -1,12 +1,20 @@
 @charset "UTF-8";
 
+.body {
+  font-family: 'Lato';
+}
+
+.Raleway {
+  font-family: 'Raleway';
+}
+
 .header {
   background-color: white;
   position: fixed;
   top: 0;
   left: 0,;
   width: 100%;
-  z-index: 1;
+  z-index: 9999;
 }
 
 .inner {
@@ -39,6 +47,10 @@
   color: #333;
 }
 
+.main {
+  padding-top: 70px;
+}
+
 .theme {
   background-color: #f2f2f2;
   text-align: center;
@@ -46,7 +58,7 @@
 
 .theme-inner {
   display: inline-block;
-  margin: 320px auto 250px;
+  margin: 250px auto;
 }
 
 .theme__item__top {
@@ -76,7 +88,7 @@
 }
 
 .what__item__right {
-  width: 600px;
+  width: 700px;
   display: inline-block;
   margin-left: 100px;
   margin-top: 100px;
@@ -100,8 +112,11 @@
   text-align: center;
 }
 
-.work-inner__top {
+.work-box {
   display: inline-block;
+}
+
+.work-inner__top {
   font-size: 24px;
   color: #333;
   margin: 60px auto 40px
@@ -177,14 +192,13 @@
 }
 
 .work-inner__bottom {
-  text-align: center;
   padding-bottom: 70px;
 }
 
 .work__item__bottom__text {
   display: inline-block;
   color: #333;
-  width: 550px;
+  width: 500px;
   margin-right: 90px;
 }
 
@@ -209,10 +223,15 @@
   text-align: center;
 }
 
-.skills-inner__top {
+.skills-box {
   display: inline-block;
+}
+
+.skills-inner__top {
+  
   color: white;
   margin-bottom: 50px;
+  font-size: 24px;
 }
 
 .skills-inner__bottom {
@@ -331,7 +350,7 @@
 
 .footer__text {
   color: white;
-  display: inline-block;
+  display: block;
   padding-top: 20px;
   padding-bottom: 25px;
 }
