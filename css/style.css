@@ -88,7 +88,6 @@
 }
 
 .what__item__right {
-  width: 650px;
   display: inline-block;
   margin-left: 100px;
   margin-top: 100px;
@@ -104,7 +103,9 @@
 
 .what__item__bottom {
   font-size: 20px;
+  line-height: 25px;
   color: white;
+  width: 650px;
 }
 
 .work {
@@ -198,8 +199,10 @@
 .work__item__bottom__text {
   display: inline-block;
   color: #333;
-  width: 500px;
+  width: 570px;
   margin-right: 90px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .work__item__bottom__button {
