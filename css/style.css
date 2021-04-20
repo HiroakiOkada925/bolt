@@ -12,18 +12,15 @@
   background-color: white;
   position: fixed;
   top: 0;
-  left: 0,;
+  left: 0;
   width: 100%;
   z-index: 9999;
+  padding: 15px 0;
 }
 
 .inner {
   width: 1100px;
   margin: 0 auto;
-}
-
-.header-inner {
-  padding: 15px 0;
 }
 
 .fa-bolt {
@@ -134,64 +131,22 @@
   margin-top: 80px;
 }
 
-.picture1 {
-  opacity: 0.7;
-  transition: all 0.3s ease;
-}
-
-.picture1:hover {
-  opacity: 1;
-}
-
-.picture2 {
+.picture {
   margin-left: 100px;
   opacity: 0.7;
   transition: all 0.3s ease;
 }
 
-.picture2:hover {
+.picture:hover {
   opacity: 1;
 }
 
-.picture3 {
-  margin-left: 100px;
-  opacity: 0.7;
-  transition: all 0.3s ease;
+.picture:nth-child(3n+1) {
+  margin-left: 0px;
 }
 
-.picture3:hover {
-  opacity: 1;
-}
-
-.picture4 {
+.picture:nth-child(n+4) {
   margin-top: 80px;
-  opacity: 0.7;
-  transition: all 0.3s ease;
-}
-
-.picture4:hover {
-  
-  opacity: 1;
-}
-
-.picture5 {
-  margin: 80px 0 0 100px;
-  opacity: 0.7;
-  transition: all 0.3s ease;
-}
-
-.picture5:hover {
-  opacity: 1;
-}
-
-.picture6 {
-  margin: 80px 0 0 100px;
-  opacity: 0.7;
-  transition: all 0.3s ease;
-}
-
-.picture6:hover {
-  opacity: 1;
 }
 
 .work__item__bottom__text {
@@ -238,24 +193,13 @@
   margin-top: 50px;
 }
 
-
-.skills__item__bottom__picture1 {
-  display: inline-block;
-}
-
-.skills__item__bottom__picture2 {
+.skills__item__bottom__picture {
   display: inline-block;
   margin-left: 180px;
 }
 
-.skills__item__bottom__picture3 {
-  display: inline-block;
-  margin-left: 180px;
-}
-
-.skills__item__bottom__picture4 {
-  display: inline-block;
-  margin-left: 180px;
+.skills__item__bottom__picture:nth-child(1) {
+  margin-left: 0;
 }
 
 .skills__item__bottom__text {
@@ -286,46 +230,7 @@
   background-color: white;
 }
 
-.fa-facebook-f {
-  color: #74cfae;
-  font-size: 50px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width: 80%;
-  height: 3.2rem;
-}
-
-.fa-dribbble {
-  color: #74cfae;
-  font-size: 50px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width: 80%;
-  height: 3.2rem;
-}
-
-.fa-twitter {
-  color: #74cfae;
-  font-size: 50px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width: 80%;
-  height: 3.2rem;
-}
-
-.fa-envelope {
+.sns-icon {
   color: #74cfae;
   font-size: 50px;
   position: absolute;
@@ -340,6 +245,8 @@
 
 .footer {
   background-color: #74cfae;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .footer-inner {
@@ -349,8 +256,6 @@
 .footer__text {
   color: white;
   display: block;
-  padding-top: 20px;
-  padding-bottom: 25px;
 }
 
 a {
