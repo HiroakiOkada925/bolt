@@ -30,7 +30,6 @@
   color: #4e4e4e;
   font-size: 40px;
   display: inline-block;
-  margin-right: 1000px;
 }
 
 .header__contact {
@@ -41,6 +40,7 @@
   transition: all 300ms 0s ease;
   display: inline-block;
   vertical-align: top;
+  margin-left: 1000px;
 }
 
 .header__contact:hover {
@@ -54,27 +54,28 @@
 .theme {
   background-color: #f2f2f2;
   text-align: center;
+  padding: 250px 0;
 }
 
 .theme-inner {
   display: inline-block;
-  margin: 250px auto;
 }
 
 .theme__item__top {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 
 .theme__item__bottom {
   color: #c0c0c0;
   font-size: 30px;
+  margin-top: 20px;
 }
 
 .what {
   background-color: #74cfae;
+  padding-top: 50px;
 }
 
 .what-inner {
@@ -84,33 +85,32 @@
 
 .what__item__picture {
   display: inline-block;
-  margin-top: 50px;
 }
 
 .what__item__right {
   display: inline-block;
   margin-left: 100px;
-  margin-top: 100px;
+  margin-top: 20px;
   vertical-align: top;
-
 }
 
 .what__item__top {
   font-size: 24px;
   color: white;
-  margin-bottom: 35px;
 }
 
 .what__item__bottom {
   font-size: 20px;
-  line-height: 25px;
+  line-height: 30px;
   color: white;
   width: 650px;
+  margin-top: 35px;
 }
 
 .work {
   background-color: #f2f2f2;
   text-align: center;
+  padding: 60px 0 70px;
 }
 
 .work-box {
@@ -120,31 +120,31 @@
 .work-inner__top {
   font-size: 24px;
   color: #333;
-  margin: 60px auto 40px
+  margin: 0 auto 40px
 }
 
 .work-inner__middle {
-  margin-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
   justify-content: center;
 }
 
+.work-inner__bottom {
+  margin-top: 80px;
+}
+
 .picture1 {
-  margin-right: 100px;
-  margin-bottom: 80px;
   opacity: 0.7;
   transition: all 0.3s ease;
 }
 
 .picture1:hover {
-  
   opacity: 1;
 }
 
 .picture2 {
-  margin-right: 100px;
+  margin-left: 100px;
   opacity: 0.7;
   transition: all 0.3s ease;
 }
@@ -154,6 +154,7 @@
 }
 
 .picture3 {
+  margin-left: 100px;
   opacity: 0.7;
   transition: all 0.3s ease;
 }
@@ -163,7 +164,7 @@
 }
 
 .picture4 {
-  margin-right: 100px;
+  margin-top: 80px;
   opacity: 0.7;
   transition: all 0.3s ease;
 }
@@ -174,7 +175,7 @@
 }
 
 .picture5 {
-  margin-right: 100px;
+  margin: 80px 0 0 100px;
   opacity: 0.7;
   transition: all 0.3s ease;
 }
@@ -184,6 +185,7 @@
 }
 
 .picture6 {
+  margin: 80px 0 0 100px;
   opacity: 0.7;
   transition: all 0.3s ease;
 }
@@ -192,15 +194,10 @@
   opacity: 1;
 }
 
-.work-inner__bottom {
-  padding-bottom: 70px;
-}
-
 .work__item__bottom__text {
   display: inline-block;
   color: #333;
   width: 570px;
-  margin-right: 90px;
   font-size: 20px;
   line-height: 25px;
 }
@@ -213,6 +210,7 @@
   display: inline-block;
   vertical-align: top;
   transition: all 0.3s ease;
+  margin-left: 90px;
 }
 
 .work__item__bottom__button:hover {
@@ -231,34 +229,33 @@
 }
 
 .skills-inner__top {
-  
   color: white;
-  margin-bottom: 50px;
   font-size: 24px;
 }
 
 .skills-inner__bottom {
   text-align: center;
+  margin-top: 50px;
 }
 
 
 .skills__item__bottom__picture1 {
   display: inline-block;
-  margin-right: 180px;
 }
 
 .skills__item__bottom__picture2 {
   display: inline-block;
-  margin-right: 180px;
+  margin-left: 180px;
 }
 
 .skills__item__bottom__picture3 {
   display: inline-block;
-  margin-right: 180px;
+  margin-left: 180px;
 }
 
 .skills__item__bottom__picture4 {
   display: inline-block;
+  margin-left: 180px;
 }
 
 .skills__item__bottom__text {
@@ -269,7 +266,7 @@
 
 .sns {
   background-color: #f2f2f2;
-  
+  padding: 250px 0 250px;
 }
 
 .sns-inner {
@@ -281,8 +278,6 @@
   height: 90px;
   background-color: #f2f2f2;
   display: inline-block;
-  margin-top: 250px;
-  margin-bottom: 250px;
   position: relative;
   transition: all 300ms 0s ease;
 }
@@ -356,4 +351,14 @@
   display: block;
   padding-top: 20px;
   padding-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  font-size: 0;
+}
+
+.sns-a {
+  padding: 45px 92.5px;
 }
