@@ -268,3 +268,53 @@ a {
 .sns-a {
   padding: 45px 92.5px;
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .what {
+    padding-bottom: 25px;
+  }
+  
+  .what__item__right {
+    margin-left: 0;
+  }
+  
+  .what__item__bottom {
+    width: 950px;
+  }
+
+  .work-inner__middle {
+    display: block;
+  }
+
+  .picture {
+    margin-left: 0;
+  }
+
+  .picture:nth-child(n+5) {
+    margin-top: 0;
+  }
+
+  .work__item__bottom__text {
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 100%;
+  }
+
+  .work__item__bottom__button {
+    margin: 0 auto;
+    display: block;
+    width: 92.81px;
+    margin-top: 40px;
+  }
+
+  .skills__item__bottom__picture {
+    display: block;
+    margin-left: 0px;
+  }
+
+  .skills__item__bottom__picture:nth-child(n+1) {
+    margin-top: 88px;
+  }
+}
+
