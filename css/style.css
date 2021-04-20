@@ -117,7 +117,7 @@
 .work-inner__top {
   font-size: 24px;
   color: #333;
-  margin: 0 auto 40px
+  margin: 0 auto;
 }
 
 .work-inner__middle {
@@ -125,6 +125,7 @@
   flex-wrap: wrap;
   width: 1100px;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .work-inner__bottom {
