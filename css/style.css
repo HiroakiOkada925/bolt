@@ -44,6 +44,10 @@
   color: #333;
 }
 
+#humberger {
+  display: none;
+}
+
 .main {
   padding-top: 70px;
 }
@@ -269,16 +273,48 @@ a {
   padding: 45px 92.5px;
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
-  
+@media screen and (max-width: 1199px) {
   .inner {
     width: 97%;
   }
-  
+
   .header-inner {
     display: flex;
   }
 
+  .work-inner__middle {
+    display: block;
+    width: 100%;
+  }
+
+  .picture {
+    margin-left: 0;
+  }
+
+  .picture:nth-child(3n+5) {
+    margin-top: 0;
+  }
+
+  .picture:nth-child(3n+6) {
+    margin-top: 0;
+  }
+
+  .fit-content {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .work__item__bottom__text {
+    width: 100%;
+  }
+
+  .skills__item__bottom__picture:nth-child(1) {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  
   .header__contact {
     margin-left: auto;
   }
@@ -302,47 +338,17 @@ a {
     margin: 35px auto 0;
   }
 
-  .work-inner__middle {
-    display: block;
-    width: 100%;
-  }
-
-  .picture {
-    margin-left: 0;
-  }
-
-  .picture:nth-child(n+5) {
-    margin-top: 0px;
-  }
-
-  .work__item__bottom__text {
-    width: 100%;
-  }
-
   .work__item__bottom__button {
-    margin-top: 40px;
-    margin-left: 0px;
+    margin: 40px 0 0 0;
   }
 
   .skills__item__bottom__picture {
     display: block;
-    margin-left: 0;
-    margin-top: 88px;
-  }
-
-  .skills__item__bottom__picture:nth-child(1) {
-    margin-top: 0;
+    margin: 88px 0 0 0;
   }
 }
 
 @media (max-width: 767px) {
-  .inner {
-    width: 97%;
-  }
-
-  .header-inner {
-    display: flex;
-  }
 
   .header__contact {
     display: none;
@@ -400,36 +406,13 @@ a {
     padding-bottom: 20px;
   }
 
-  .work-inner__middle {
-    display: block;
-    width: 100%;
-  }
-
-  .picture {
-    margin-left: 0;
-  }
-  
-  .picture:nth-child(n+5) {
-    margin-top: 0px;
-  }
-
-  .work__item__bottom__text {
-    width: 100%;
-  }
-
   .work__item__bottom__button {
-    margin-top: 50px;
-    margin-left: 0px;
+    margin: 50px 0 0 0;
   }
 
   .skills__item__bottom__picture {
     display: block;
-    margin-left: 0;
-    margin-top: 100px;
-  }
-
-  .skills__item__bottom__picture:nth-child(1) {
-    margin-top: 0;
+    margin: 100px 0 0 0;
   }
 
   .sns {
@@ -443,7 +426,6 @@ a {
 
   .sns__icon-box {
     width: 100%;
-    font-size: 0;
   }
 
   .footer__text {
