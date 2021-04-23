@@ -346,6 +346,10 @@ a {
     display: block;
     margin: 88px 0 0 0;
   }
+
+  .sns-inner {
+    font-size: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -417,11 +421,6 @@ a {
 
   .sns {
     padding: 50px 0;
-    font-size: 0;
-  }
-
-  .sns-inner {
-    font-size: 0;
   }
 
   .sns__icon-box {
